@@ -1,0 +1,28 @@
+{
+    "name": "suainul2/rajaongkirpro",
+    "description": "Rajaongkir Pro for Laravel 5.8 >",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Suainul Yaqin",
+            "email": "yaqinsuainul1@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Suainul\\RajaongkirPro\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Suainul\\RajaongkirPro\\RajaongkirProServiceProvider"
+            ],
+            "aliases": {
+                "RajaongkirPro": "Suainul\\RajaongkirPro\\Facades\\RajaongkirPro"
+            }
+        }
+    }
+}
